@@ -1,10 +1,10 @@
-<?php
-require __DIR__ . '/vendor/autoload.php'; // Composer autoload
+//<?php
+//require __DIR__ . '/vendor/autoload.php'; // Composer autoload
 
-use Dotenv\Dotenv;
+//use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+//$dotenv = Dotenv::createImmutable(__DIR__);
+//$dotenv->load();
 
 $channelSecret = $_ENV['CHANNEL_SECRET'];
 $channelToken  = $_ENV['CHANNEL_ACCESS_TOKEN'];
